@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TableViewController.h
 //  TableViewCheckMark
 //
 //  Created by Martin Borstrand on 2015-05-14.
@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface TableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate>
 
 @end
 

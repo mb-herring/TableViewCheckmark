@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  SwitchLabb
+//  TableViewCheckMark
 //
 //  Created by Martin Borstrand on 2015-05-14.
 //  Copyright (c) 2015 Martin Borstrand. All rights reserved.
@@ -16,8 +16,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+   
     // Override point for customization after application launch.
+    
+    [self customNavigationBarText];
+    
     return YES;
+}
+
+- (void)customNavigationBarText {
+    
+    NSShadow *shadow = [[NSShadow alloc]init];
+    shadow.shadowColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0];
+    shadow.shadowOffset = CGSizeMake(0, 0);
+    [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                          [UIColor whiteColor], NSForegroundColorAttributeName,
+                                                          shadow, NSShadowAttributeName,
+                                                          [UIFont fontWithName:@"Montserrat-Regular" size:15], NSFontAttributeName, nil]];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

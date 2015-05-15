@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		26C554651B04E1A2006CD92D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C554641B04E1A2006CD92D /* main.m */; };
 		26C554681B04E1A2006CD92D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C554671B04E1A2006CD92D /* AppDelegate.m */; };
-		26C5546B1B04E1A2006CD92D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C5546A1B04E1A2006CD92D /* ViewController.m */; };
+		26C5546B1B04E1A2006CD92D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C5546A1B04E1A2006CD92D /* TableViewController.m */; };
 		26C5546E1B04E1A2006CD92D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C5546C1B04E1A2006CD92D /* Main.storyboard */; };
 		26C554701B04E1A2006CD92D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C5546F1B04E1A2006CD92D /* Images.xcassets */; };
 		26C554731B04E1A2006CD92D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26C554711B04E1A2006CD92D /* LaunchScreen.xib */; };
 		26C5547F1B04E1A2006CD92D /* SwitchLabbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C5547E1B04E1A2006CD92D /* SwitchLabbTests.m */; };
+		26C5548A1B04E5C6006CD92D /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C554891B04E5C6006CD92D /* TestTableViewCell.m */; };
+		26C5548D1B05F1C1006CD92D /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26C5548B1B05F1C1006CD92D /* Lato-Regular.ttf */; };
+		26C5548E1B05F1C1006CD92D /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26C5548C1B05F1C1006CD92D /* Montserrat-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +30,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26C5545F1B04E1A2006CD92D /* SwitchLabb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchLabb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C5545F1B04E1A2006CD92D /* TableViewCheckMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewCheckMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C554631B04E1A2006CD92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26C554641B04E1A2006CD92D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26C554661B04E1A2006CD92D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26C554671B04E1A2006CD92D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		26C554691B04E1A2006CD92D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		26C5546A1B04E1A2006CD92D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26C554691B04E1A2006CD92D /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		26C5546A1B04E1A2006CD92D /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		26C5546D1B04E1A2006CD92D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26C5546F1B04E1A2006CD92D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		26C554721B04E1A2006CD92D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		26C554781B04E1A2006CD92D /* SwitchLabbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchLabbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C554781B04E1A2006CD92D /* TableViewCheckMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCheckMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C5547D1B04E1A2006CD92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26C5547E1B04E1A2006CD92D /* SwitchLabbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchLabbTests.m; sourceTree = "<group>"; };
+		26C554881B04E5C6006CD92D /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		26C554891B04E5C6006CD92D /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		26C5548B1B05F1C1006CD92D /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		26C5548C1B05F1C1006CD92D /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +70,8 @@
 		26C554561B04E1A2006CD92D = {
 			isa = PBXGroup;
 			children = (
-				26C554611B04E1A2006CD92D /* SwitchLabb */,
-				26C5547B1B04E1A2006CD92D /* SwitchLabbTests */,
+				26C554611B04E1A2006CD92D /* TableViewCheckMark */,
+				26C5547B1B04E1A2006CD92D /* TableViewCheckMarkTests */,
 				26C554601B04E1A2006CD92D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,24 +79,27 @@
 		26C554601B04E1A2006CD92D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26C5545F1B04E1A2006CD92D /* SwitchLabb.app */,
-				26C554781B04E1A2006CD92D /* SwitchLabbTests.xctest */,
+				26C5545F1B04E1A2006CD92D /* TableViewCheckMark.app */,
+				26C554781B04E1A2006CD92D /* TableViewCheckMarkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26C554611B04E1A2006CD92D /* SwitchLabb */ = {
+		26C554611B04E1A2006CD92D /* TableViewCheckMark */ = {
 			isa = PBXGroup;
 			children = (
 				26C554661B04E1A2006CD92D /* AppDelegate.h */,
 				26C554671B04E1A2006CD92D /* AppDelegate.m */,
-				26C554691B04E1A2006CD92D /* ViewController.h */,
-				26C5546A1B04E1A2006CD92D /* ViewController.m */,
+				26C554691B04E1A2006CD92D /* TableViewController.h */,
+				26C5546A1B04E1A2006CD92D /* TableViewController.m */,
+				26C554881B04E5C6006CD92D /* TestTableViewCell.h */,
+				26C554891B04E5C6006CD92D /* TestTableViewCell.m */,
 				26C5546C1B04E1A2006CD92D /* Main.storyboard */,
 				26C5546F1B04E1A2006CD92D /* Images.xcassets */,
 				26C554711B04E1A2006CD92D /* LaunchScreen.xib */,
 				26C554621B04E1A2006CD92D /* Supporting Files */,
 			);
+			name = TableViewCheckMark;
 			path = SwitchLabb;
 			sourceTree = "<group>";
 		};
@@ -97,17 +107,20 @@
 			isa = PBXGroup;
 			children = (
 				26C554631B04E1A2006CD92D /* Info.plist */,
+				26C5548B1B05F1C1006CD92D /* Lato-Regular.ttf */,
+				26C5548C1B05F1C1006CD92D /* Montserrat-Regular.ttf */,
 				26C554641B04E1A2006CD92D /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		26C5547B1B04E1A2006CD92D /* SwitchLabbTests */ = {
+		26C5547B1B04E1A2006CD92D /* TableViewCheckMarkTests */ = {
 			isa = PBXGroup;
 			children = (
 				26C5547E1B04E1A2006CD92D /* SwitchLabbTests.m */,
 				26C5547C1B04E1A2006CD92D /* Supporting Files */,
 			);
+			name = TableViewCheckMarkTests;
 			path = SwitchLabbTests;
 			sourceTree = "<group>";
 		};
@@ -122,9 +135,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		26C5545E1B04E1A2006CD92D /* SwitchLabb */ = {
+		26C5545E1B04E1A2006CD92D /* TableViewCheckMark */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26C554821B04E1A2006CD92D /* Build configuration list for PBXNativeTarget "SwitchLabb" */;
+			buildConfigurationList = 26C554821B04E1A2006CD92D /* Build configuration list for PBXNativeTarget "TableViewCheckMark" */;
 			buildPhases = (
 				26C5545B1B04E1A2006CD92D /* Sources */,
 				26C5545C1B04E1A2006CD92D /* Frameworks */,
@@ -134,14 +147,14 @@
 			);
 			dependencies = (
 			);
-			name = SwitchLabb;
+			name = TableViewCheckMark;
 			productName = SwitchLabb;
-			productReference = 26C5545F1B04E1A2006CD92D /* SwitchLabb.app */;
+			productReference = 26C5545F1B04E1A2006CD92D /* TableViewCheckMark.app */;
 			productType = "com.apple.product-type.application";
 		};
-		26C554771B04E1A2006CD92D /* SwitchLabbTests */ = {
+		26C554771B04E1A2006CD92D /* TableViewCheckMarkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26C554851B04E1A2006CD92D /* Build configuration list for PBXNativeTarget "SwitchLabbTests" */;
+			buildConfigurationList = 26C554851B04E1A2006CD92D /* Build configuration list for PBXNativeTarget "TableViewCheckMarkTests" */;
 			buildPhases = (
 				26C554741B04E1A2006CD92D /* Sources */,
 				26C554751B04E1A2006CD92D /* Frameworks */,
@@ -152,9 +165,9 @@
 			dependencies = (
 				26C5547A1B04E1A2006CD92D /* PBXTargetDependency */,
 			);
-			name = SwitchLabbTests;
+			name = TableViewCheckMarkTests;
 			productName = SwitchLabbTests;
-			productReference = 26C554781B04E1A2006CD92D /* SwitchLabbTests.xctest */;
+			productReference = 26C554781B04E1A2006CD92D /* TableViewCheckMarkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 26C5545A1B04E1A2006CD92D /* Build configuration list for PBXProject "SwitchLabb" */;
+			buildConfigurationList = 26C5545A1B04E1A2006CD92D /* Build configuration list for PBXProject "TableViewCheckMark" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +201,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				26C5545E1B04E1A2006CD92D /* SwitchLabb */,
-				26C554771B04E1A2006CD92D /* SwitchLabbTests */,
+				26C5545E1B04E1A2006CD92D /* TableViewCheckMark */,
+				26C554771B04E1A2006CD92D /* TableViewCheckMarkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +215,8 @@
 				26C5546E1B04E1A2006CD92D /* Main.storyboard in Resources */,
 				26C554731B04E1A2006CD92D /* LaunchScreen.xib in Resources */,
 				26C554701B04E1A2006CD92D /* Images.xcassets in Resources */,
+				26C5548E1B05F1C1006CD92D /* Montserrat-Regular.ttf in Resources */,
+				26C5548D1B05F1C1006CD92D /* Lato-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +234,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26C5546B1B04E1A2006CD92D /* ViewController.m in Sources */,
+				26C5546B1B04E1A2006CD92D /* TableViewController.m in Sources */,
+				26C5548A1B04E5C6006CD92D /* TestTableViewCell.m in Sources */,
 				26C554681B04E1A2006CD92D /* AppDelegate.m in Sources */,
 				26C554651B04E1A2006CD92D /* main.m in Sources */,
 			);
@@ -238,7 +254,7 @@
 /* Begin PBXTargetDependency section */
 		26C5547A1B04E1A2006CD92D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 26C5545E1B04E1A2006CD92D /* SwitchLabb */;
+			target = 26C5545E1B04E1A2006CD92D /* TableViewCheckMark */;
 			targetProxy = 26C554791B04E1A2006CD92D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -349,7 +365,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwitchLabb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TableViewCheckMark;
 			};
 			name = Debug;
 		};
@@ -359,7 +375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwitchLabb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TableViewCheckMark;
 			};
 			name = Release;
 		};
@@ -377,7 +393,7 @@
 				);
 				INFOPLIST_FILE = SwitchLabbTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TableViewCheckMarkTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchLabb.app/SwitchLabb";
 			};
 			name = Debug;
@@ -392,7 +408,7 @@
 				);
 				INFOPLIST_FILE = SwitchLabbTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TableViewCheckMarkTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchLabb.app/SwitchLabb";
 			};
 			name = Release;
@@ -400,7 +416,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26C5545A1B04E1A2006CD92D /* Build configuration list for PBXProject "SwitchLabb" */ = {
+		26C5545A1B04E1A2006CD92D /* Build configuration list for PBXProject "TableViewCheckMark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26C554801B04E1A2006CD92D /* Debug */,
@@ -409,21 +425,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26C554821B04E1A2006CD92D /* Build configuration list for PBXNativeTarget "SwitchLabb" */ = {
+		26C554821B04E1A2006CD92D /* Build configuration list for PBXNativeTarget "TableViewCheckMark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26C554831B04E1A2006CD92D /* Debug */,
 				26C554841B04E1A2006CD92D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		26C554851B04E1A2006CD92D /* Build configuration list for PBXNativeTarget "SwitchLabbTests" */ = {
+		26C554851B04E1A2006CD92D /* Build configuration list for PBXNativeTarget "TableViewCheckMarkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26C554861B04E1A2006CD92D /* Debug */,
 				26C554871B04E1A2006CD92D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
